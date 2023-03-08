@@ -5,7 +5,7 @@ import 'package:flutter/src/widgets/placeholder.dart';
 import '../widgets/custom_add_note_bottom_sheet.dart';
 import '../widgets/custom_notes_item.dart';
 import '../widgets/custom_notes_listview.dart';
-import '../widgets/custom_view_body.dart';
+import '../widgets/custom_app_bar.dart';
 
 class NotesView extends StatelessWidget {
   const NotesView({super.key});
@@ -32,7 +32,7 @@ class NotesView extends StatelessWidget {
         child: Column(
           children: const [
             SizedBox(height: 54),
-            CustomViewBody(),
+            CustomAppBar(title: 'Notes', icon: Icons.search),
             Expanded(child: CustomNotesListView()),
           ],
         ),

@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 import '../widgets/custom_add_note_bottom_sheet.dart';
-import '../widgets/custom_notes_item.dart';
+
 import '../widgets/custom_notes_listview.dart';
 import '../widgets/custom_app_bar.dart';
 

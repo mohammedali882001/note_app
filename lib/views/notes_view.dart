@@ -16,6 +16,7 @@ class NotesView extends StatelessWidget {
           child: IconButton(
             onPressed: () {
               showModalBottomSheet(
+                isScrollControlled: true,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16),
                 ),
